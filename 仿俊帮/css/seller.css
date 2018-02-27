@@ -1,0 +1,86 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%; } 
+table { border-collapse:collapse; border-spacing:0; }
+.fr{float: right;}
+.fl{float: left;}
+
+.main{z-index: 2;width: 1200px;margin: 0 auto;}
+/*.main p{text-align: center;margin: 10px;}*/
+.header-nav{height: 40px;line-height: 40px;width: 1200px;z-index: 1;position: relative;color: #ffffff;;margin: 0 auto;}
+.header-back{background: #333333;height: 40px;width: 100%;z-index: 0};
+.header-nav span{color: #ffffff}
+.header-nav-right{float: right;color: #ffffff}
+.header-nav-right span{color: #ffffff}
+.header-info {margin-top:10px;}
+.header-info a{font-size: 12px; color: rgb(90, 90, 90);}
+#login-mail{color: #F49C02;font-size:16px;text-decoration: none;margin:5px;padding: 5px; }
+.header-title{width: 333px;}
+.body-nav{background: #EBEBEB;height: 50px;line-height: 50px;z-index: 1;position: relative;width: 1200px;margin:0 auto}
+.body-nav ul{margin: 0 auto}
+.body-nav li{float: left;width: 171px;text-align: center;color: #333333}
+.body-nav li:hover{background: #F49C02;cursor: pointer;color: #ffffff;}
+.product-nav li{float: left;width: 171px;text-align: center}
+.product-nav li:hover{background:url(http://static.websiteonline.cn/website/plugin/tabs_tag/images/buttons/08.gif);cursor: pointer;color: #ffffff;}
+.product-nav{background: url(http://static.websiteonline.cn/website/plugin/tabs_tag/images/buttons/03.gif) repeat-x;height: 50px;line-height: 50px;z-index: 1;position: relative}
+.body-nav-back{background: #EBEBEB;height: 50px;width: 100%;z-index: 0}
+.straight-line{border-top:1px solid #F49C02;position: relative;top:20px;z-index: 0}
+.straight-text{width: 200px;height: 40px;background: #ffffff;color: #F49C02;margin: 0 auto;text-align: center;line-height: 40px;position: relative;z-index: 1;font-size: 36px;}
+.product-list{text-align: center;margin: 0 auto;min-width: 1180px;max-height: 800px;overflow: hidden}
+.product-list li{margin:10px 15px;float: left;width: 270px;height: 375px;}
+.product-list-index{text-align: center;margin: 0 auto;min-width: 1180px;overflow: hidden;margin-bottom: 20px;}
+.product-list-index li{margin:10px 15px;float: left;width: 270px;height: 375px;}
+.about-info-title{background: #F49C02;width: 1200px;height: 205px;position: relative;z-index: 1;margin-bottom: 35px;}
+.about-info-title img:first-child {width:234px;height:auto;display:inline;margin-left: 20px;}
+.about-info-title img:last-child {width: auto; height: 88px; display: inline;float: right;padding: 70px;}
+.about-info-title-back{background: #F49C02;height: 205px;width: 100%;z-index: 0}
+.about-us{background: #EBEBEB;height: 88px;margin: 20px 0;}
+.about-us span:first-child{background: #F49C02;height: 88px;width: 270px;float: left;text-align: center;line-height: 88px;color: #ffffff;font-size: 30px;font-weight: bold}
+.about-us span:last-child{height: 88px;width: 930px;float: left;text-align: center;line-height: 88px;color: #333333;font-size: 20px;}
+.about-us-info{border:1px solid #F49C02;padding:15px;height: 470px;margin-bottom: 20px;}
+.about-us-info img{width: 621px; height: 297px; display: inline;}
+.about-us-info a{text-decoration: none;color: #5a5a5a;font-size: 14px;font-family: 微软雅黑;line-height: 200%}
+.about-us-info a:hover{ text-decoration: none; color: #47cdff;}
+.about-info-text{position: relative;left: 650px;top: -300px;/*z-index: 133;*/width: 512px;height: 281px;}
+.about-floor-img{width: 1200px;margin: 0 auto;position: relative;top: -270px}
+.about-floor-img img{float: left;width: 217px;height: 144px;margin-right: 18px;}
+.straight-line-second{border-top:1px solid #ffffff;position: relative;top:40px;z-index: 0;width: 900px;margin: 0 auto;}
+.straight-text-second{ width: 250px;height: 45px;background: #F49C02;color: #ffffff;margin: 20px auto 0px;text-align: center;line-height: 40px;position: relative;z-index: 1;font-size: 36px;}
+.straight-line-third{border-top:1px solid #ffffff;position: relative;top:40px;z-index: 0;width: 900px;margin: 0 auto;}
+.straight-text-third{ width: 250px;height: 45px;background: #F49C02;color: #333333;margin: 20px auto 0px;text-align: center;line-height: 40px;position: relative;z-index: 1;font-size: 18px;}
+.about-info-contant-back{background: url("http://pmo23ea75.pic34.websiteonline.cn/upload/1nlr.jpg"); height: 766px; width: 100%;z-index: 0}
+.about-info-contant{margin-top: 50px;height: 766px;position: relative;z-index: 1}
+.product-show{height: 500px;border:1px solid black;margin: 20px auto}
+.product-show-text{width: 220px;height: 174px;background: #F49C02;text-align: center;line-height: 174px;color: #ffffff;font-size: 30px;font-weight: bold;display: inline-block}
+.straight-line-news{border-top:1px solid #F49C02;position: relative;top:20px;z-index: 0}
+.straight-text-news{width: 200px;height: 40px;background: #ffffff;color: #F49C02;margin: 0 auto;text-align: center;line-height: 40px;position: relative;z-index: 1;font-size: 36px;}
+.body-news{width:547px;height: 350px}
+.body-news-img{width: 622px;height:353px;}
+.body-news p{margin:2px 0px;}
+.body-news a{font-size:14px;color:#5A5A5A;text-decoration: none;}
+.main a{font-size:14px;color:#5A5A5A;text-decoration: none;}
+.body-news a:hover{text-decoration: none; color: #47cdff;}
+.news-border-line-bold{border-bottom: 1px solid #333333;}
+.news-border-line-light{border-bottom: 1px solid #e2e2e2;}
+.footer-back{background: #F49C02;height: 420px;width: 100%;z-index: 0;}
+.footer-nav{background: #ffffff;height: 50px;line-height: 50px;z-index: 1;position: relative;}
+.footer-nav li{float: left;width: 171px;text-align: center}
+.footer-nav li:hover{cursor: pointer;color: #333333;font-weight: bold;}
+
+.friend-link{color: #ffffff;margin: 30px;}
+.friend-link a{color: #ffffff;font-size:14px;text-decoration: none;margin:5px; }
+.company-info{min-height:500px;}
+
+.active{background:#F49C02;color: #ffffff !important ; }
+.active-p{background:url(http://static.websiteonline.cn/website/plugin/tabs_tag/images/buttons/08.gif) repeat-x;color:#ffffff}
